@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">   
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=attach_email" />
+    <!-- link AOS -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+
+<body>
+  <!-- container -->
+  <div class="container">
+    <!-- container-manu -->
+    <div class="container-manu">
+      <div class="manu-navbar">
+        <!-- manu-logo -->
+        <div class="manu-logo">
+          <img src="logo/iOne-logo-clear-removebg-preview.png" alt=""> 
+            |
+          <img src="logo/apple-reseller-logo.png" alt=""> 
+        </div>
+
+        <!-- manu-list -->
+        <div class="manu-list">
+             <ul>
+              <li class="main-home"a href="#" onclick="toggleSubmenu()" >Mac <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+              
+              </div>
+                  
+                <!-- sub menu -->
+                 <div class="sub-menu" id="sub-menu">
+                  <ul>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M80-160q-33 0-56.5-23.5T0-240h160q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v440q0 33-23.5 56.5T800-240h160q0 33-23.5 56.5T880-160H80Zm400-40q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200ZM160-320h640v-440H160v440Zm0 0v-440 440Z"/></svg> &nbsp;&nbsp;MacBook Air 13-inch (M4)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M80-160q-33 0-56.5-23.5T0-240h160q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v440q0 33-23.5 56.5T800-240h160q0 33-23.5 56.5T880-160H80Zm400-40q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200ZM160-320h640v-440H160v440Zm0 0v-440 440Z"/></svg>&nbsp;&nbsp; MacBook Air 15-inch (M4)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M80-160q-33 0-56.5-23.5T0-240h160q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v440q0 33-23.5 56.5T800-240h160q0 33-23.5 56.5T880-160H80Zm400-40q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200ZM160-320h640v-440H160v440Zm0 0v-440 440Z"/></svg> &nbsp;&nbsp;MacBook Air 13-inch (M3)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M80-160q-33 0-56.5-23.5T0-240h160q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v440q0 33-23.5 56.5T800-240h160q0 33-23.5 56.5T880-160H80Zm400-40q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200ZM160-320h640v-440H160v440Zm0 0v-440 440Z"/></svg> &nbsp;&nbsp;MacBook Air 15-inch (M3)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M80-160q-33 0-56.5-23.5T0-240h160q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v440q0 33-23.5 56.5T800-240h160q0 33-23.5 56.5T880-160H80Zm400-40q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200ZM160-320h640v-440H160v440Zm0 0v-440 440Z"/></svg> &nbsp;&nbsp;MacBook Air 13-inch (M2)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M80-160q-33 0-56.5-23.5T0-240h160q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v440q0 33-23.5 56.5T800-240h160q0 33-23.5 56.5T880-160H80Zm400-40q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200ZM160-320h640v-440H160v440Zm0 0v-440 440Z"/></svg> &nbsp;&nbsp;MacBook Air 15-inch (M2)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M80-160q-33 0-56.5-23.5T0-240h160q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v440q0 33-23.5 56.5T800-240h160q0 33-23.5 56.5T880-160H80Zm400-40q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200ZM160-320h640v-440H160v440Zm0 0v-440 440Z"/></svg> &nbsp;&nbsp;MacBook Pro 14-inch (M4)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M80-160q-33 0-56.5-23.5T0-240h160q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v440q0 33-23.5 56.5T800-240h160q0 33-23.5 56.5T880-160H80Zm400-40q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200ZM160-320h640v-440H160v440Zm0 0v-440 440Z"/></svg> &nbsp;&nbsp;MacBook Pro 16-inch (M4)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M80-160q-33 0-56.5-23.5T0-240h160q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v440q0 33-23.5 56.5T800-240h160q0 33-23.5 56.5T880-160H80Zm400-40q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200ZM160-320h640v-440H160v440Zm0 0v-440 440Z"/></svg> &nbsp;&nbsp;iMac24-inch 4.5k (M4)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M80-160q-33 0-56.5-23.5T0-240h160q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v440q0 33-23.5 56.5T800-240h160q0 33-23.5 56.5T880-160H80Zm400-40q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200ZM160-320h640v-440H160v440Zm0 0v-440 440Z"/></svg> &nbsp;&nbsp;iMac mini (M4)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M80-160q-33 0-56.5-23.5T0-240h160q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v440q0 33-23.5 56.5T800-240h160q0 33-23.5 56.5T880-160H80Zm400-40q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200ZM160-320h640v-440H160v440Zm0 0v-440 440Z"/></svg> &nbsp;&nbsp;Mac Studio</a></li>
+
+                  </ul>
+      
+              </a></li>
+              
+              </div>
+              <div class="manu-list">
+                <ul>
+            <li><a href="#"  onclick="MacSubmenu()">Ipad <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+            </div>
+                <!-- sub menu -->
+                 <div class="sub-menu-Ipad " id="sub-menu-Ipad">
+                  <ul>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M200-40q-33 0-56.5-23.5T120-120v-720q0-33 23.5-56.5T200-920h560q33 0 56.5 23.5T840-840v720q0 33-23.5 56.5T760-40H200Zm0-200v120h560v-120H200Zm200 80h160v-40H400v40ZM200-320h560v-400H200v400Zm0-480h560v-40H200v40Zm0 0v-40 40Zm0 560v120-120Z"/></svg> &nbsp;&nbsp;iPad Pro 11-inch (M4)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M200-40q-33 0-56.5-23.5T120-120v-720q0-33 23.5-56.5T200-920h560q33 0 56.5 23.5T840-840v720q0 33-23.5 56.5T760-40H200Zm0-200v120h560v-120H200Zm200 80h160v-40H400v40ZM200-320h560v-400H200v400Zm0-480h560v-40H200v40Zm0 0v-40 40Zm0 560v120-120Z"/></svg> &nbsp;&nbsp;iPad Pro 13-inch (M4)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M200-40q-33 0-56.5-23.5T120-120v-720q0-33 23.5-56.5T200-920h560q33 0 56.5 23.5T840-840v720q0 33-23.5 56.5T760-40H200Zm0-200v120h560v-120H200Zm200 80h160v-40H400v40ZM200-320h560v-400H200v400Zm0-480h560v-40H200v40Zm0 0v-40 40Zm0 560v120-120Z"/></svg> &nbsp;&nbsp;iPad Air 11-inch (M3)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M200-40q-33 0-56.5-23.5T120-120v-720q0-33 23.5-56.5T200-920h560q33 0 56.5 23.5T840-840v720q0 33-23.5 56.5T760-40H200Zm0-200v120h560v-120H200Zm200 80h160v-40H400v40ZM200-320h560v-400H200v400Zm0-480h560v-40H200v40Zm0 0v-40 40Zm0 560v120-120Z"/></svg> &nbsp;&nbsp;iPad Air 13-inch (M3)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M200-40q-33 0-56.5-23.5T120-120v-720q0-33 23.5-56.5T200-920h560q33 0 56.5 23.5T840-840v720q0 33-23.5 56.5T760-40H200Zm0-200v120h560v-120H200Zm200 80h160v-40H400v40ZM200-320h560v-400H200v400Zm0-480h560v-40H200v40Zm0 0v-40 40Zm0 560v120-120Z"/></svg> &nbsp;&nbsp;iPad Air 11-inch (M2)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M200-40q-33 0-56.5-23.5T120-120v-720q0-33 23.5-56.5T200-920h560q33 0 56.5 23.5T840-840v720q0 33-23.5 56.5T760-40H200Zm0-200v120h560v-120H200Zm200 80h160v-40H400v40ZM200-320h560v-400H200v400Zm0-480h560v-40H200v40Zm0 0v-40 40Zm0 560v120-120Z"/></svg> &nbsp;&nbsp;iPad (A16)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M200-40q-33 0-56.5-23.5T120-120v-720q0-33 23.5-56.5T200-920h560q33 0 56.5 23.5T840-840v720q0 33-23.5 56.5T760-40H200Zm0-200v120h560v-120H200Zm200 80h160v-40H400v40ZM200-320h560v-400H200v400Zm0-480h560v-40H200v40Zm0 0v-40 40Zm0 560v120-120Z"/></svg> &nbsp;&nbsp;iPad 10.2-inch (M4)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M200-40q-33 0-56.5-23.5T120-120v-720q0-33 23.5-56.5T200-920h560q33 0 56.5 23.5T840-840v720q0 33-23.5 56.5T760-40H200Zm0-200v120h560v-120H200Zm200 80h160v-40H400v40ZM200-320h560v-400H200v400Zm0-480h560v-40H200v40Zm0 0v-40 40Zm0 560v120-120Z"/></svg> &nbsp;&nbsp;iPad Pro 11-inch (M13)</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M200-40q-33 0-56.5-23.5T120-120v-720q0-33 23.5-56.5T200-920h560q33 0 56.5 23.5T840-840v720q0 33-23.5 56.5T760-40H200Zm0-200v120h560v-120H200Zm200 80h160v-40H400v40ZM200-320h560v-400H200v400Zm0-480h560v-40H200v40Zm0 0v-40 40Zm0 560v120-120Z"/></svg> &nbsp;&nbsp;iPad mini (A17 Pro)</a></li>
+                    
+
+                  </ul>
+      
+              </a></li>
+              
+              </div>
+              
+            
+            
+              
+              <!-- watch-list -->
+                <div class="manu-list">
+                <ul>
+            <li><a href="#"  onclick="WatchSubmenu()">watch <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+              </div>
+              <!-- sub menu watch-->
+                 <div class="sub-menu-watch " id="sub-menu-watch">
+                  <ul>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M340-800h120-120Zm0 640h120-120Zm420-120v-80h80v80h-80Zm0-160v-80h120v80H760Zm0-160v-81h160v81H760ZM280-80l-54-182q-48-38-77-95t-29-123q0-66 29-123t77-95l54-182h240l54 182q48 38 77 95t29 123q0 66-29 123t-77 95L520-80H280Zm120-200q83 0 141.5-58.5T600-480q0-83-58.5-141.5T400-680q-83 0-141.5 58.5T200-480q0 83 58.5 141.5T400-280Zm-76-470q20-5 38.5-8t37.5-3q19 0 37.5 3t38.5 8l-16-50H340l-16 50Zm16 590h120l16-50q-20 5-38.5 7.5T400-200q-19 0-37.5-2.5T324-210l16 50Z"/></svg> &nbsp;&nbsp;Apple Watch Ultra 3</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M340-800h120-120Zm0 640h120-120Zm420-120v-80h80v80h-80Zm0-160v-80h120v80H760Zm0-160v-81h160v81H760ZM280-80l-54-182q-48-38-77-95t-29-123q0-66 29-123t77-95l54-182h240l54 182q48 38 77 95t29 123q0 66-29 123t-77 95L520-80H280Zm120-200q83 0 141.5-58.5T600-480q0-83-58.5-141.5T400-680q-83 0-141.5 58.5T200-480q0 83 58.5 141.5T400-280Zm-76-470q20-5 38.5-8t37.5-3q19 0 37.5 3t38.5 8l-16-50H340l-16 50Zm16 590h120l16-50q-20 5-38.5 7.5T400-200q-19 0-37.5-2.5T324-210l16 50Z"/></svg> &nbsp;&nbsp;Apple Watch Series 11</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M340-800h120-120Zm0 640h120-120Zm420-120v-80h80v80h-80Zm0-160v-80h120v80H760Zm0-160v-81h160v81H760ZM280-80l-54-182q-48-38-77-95t-29-123q0-66 29-123t77-95l54-182h240l54 182q48 38 77 95t29 123q0 66-29 123t-77 95L520-80H280Zm120-200q83 0 141.5-58.5T600-480q0-83-58.5-141.5T400-680q-83 0-141.5 58.5T200-480q0 83 58.5 141.5T400-280Zm-76-470q20-5 38.5-8t37.5-3q19 0 37.5 3t38.5 8l-16-50H340l-16 50Zm16 590h120l16-50q-20 5-38.5 7.5T400-200q-19 0-37.5-2.5T324-210l16 50Z"/></svg> &nbsp;&nbsp;Apple Watch SE 3</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M340-800h120-120Zm0 640h120-120Zm420-120v-80h80v80h-80Zm0-160v-80h120v80H760Zm0-160v-81h160v81H760ZM280-80l-54-182q-48-38-77-95t-29-123q0-66 29-123t77-95l54-182h240l54 182q48 38 77 95t29 123q0 66-29 123t-77 95L520-80H280Zm120-200q83 0 141.5-58.5T600-480q0-83-58.5-141.5T400-680q-83 0-141.5 58.5T200-480q0 83 58.5 141.5T400-280Zm-76-470q20-5 38.5-8t37.5-3q19 0 37.5 3t38.5 8l-16-50H340l-16 50Zm16 590h120l16-50q-20 5-38.5 7.5T400-200q-19 0-37.5-2.5T324-210l16 50Z"/></svg> &nbsp;&nbsp;Apple Watch Ultra 2</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M340-800h120-120Zm0 640h120-120Zm420-120v-80h80v80h-80Zm0-160v-80h120v80H760Zm0-160v-81h160v81H760ZM280-80l-54-182q-48-38-77-95t-29-123q0-66 29-123t77-95l54-182h240l54 182q48 38 77 95t29 123q0 66-29 123t-77 95L520-80H280Zm120-200q83 0 141.5-58.5T600-480q0-83-58.5-141.5T400-680q-83 0-141.5 58.5T200-480q0 83 58.5 141.5T400-280Zm-76-470q20-5 38.5-8t37.5-3q19 0 37.5 3t38.5 8l-16-50H340l-16 50Zm16 590h120l16-50q-20 5-38.5 7.5T400-200q-19 0-37.5-2.5T324-210l16 50Z"/></svg> &nbsp;&nbsp;Apple Watch Series 10</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M340-800h120-120Zm0 640h120-120Zm420-120v-80h80v80h-80Zm0-160v-80h120v80H760Zm0-160v-81h160v81H760ZM280-80l-54-182q-48-38-77-95t-29-123q0-66 29-123t77-95l54-182h240l54 182q48 38 77 95t29 123q0 66-29 123t-77 95L520-80H280Zm120-200q83 0 141.5-58.5T600-480q0-83-58.5-141.5T400-680q-83 0-141.5 58.5T200-480q0 83 58.5 141.5T400-280Zm-76-470q20-5 38.5-8t37.5-3q19 0 37.5 3t38.5 8l-16-50H340l-16 50Zm16 590h120l16-50q-20 5-38.5 7.5T400-200q-19 0-37.5-2.5T324-210l16 50Z"/></svg> &nbsp;&nbsp;Apple Watch SE (2024)</a></li>
+                    
+                    
+
+                  </ul>
+      
+              </a></li>
+            
+               </div>
+            
+        
+          <!-- watch-list -->
+                <div class="manu-list">
+                <ul>
+            <li><a href="#"  onclick="IphoneSubmenu()">Iphone <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+              </div>
+              <!-- sub menu iphone-->
+                 <div class="sub-menu-iphone " id="sub-menu-iphone">
+                  <ul>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M280-40q-33 0-56.5-23.5T200-120v-720q0-33 23.5-56.5T280-920h400q33 0 56.5 23.5T760-840v124q18 7 29 22t11 34v80q0 19-11 34t-29 22v404q0 33-23.5 56.5T680-40H280Zm0-80h400v-720H280v720Zm0 0v-720 720Zm120-40h160q17 0 28.5-11.5T600-200q0-17-11.5-28.5T560-240H400q-17 0-28.5 11.5T360-200q0 17 11.5 28.5T400-160Z"/></svg> &nbsp;&nbsp;Iphone 17 Pro</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M280-40q-33 0-56.5-23.5T200-120v-720q0-33 23.5-56.5T280-920h400q33 0 56.5 23.5T760-840v124q18 7 29 22t11 34v80q0 19-11 34t-29 22v404q0 33-23.5 56.5T680-40H280Zm0-80h400v-720H280v720Zm0 0v-720 720Zm120-40h160q17 0 28.5-11.5T600-200q0-17-11.5-28.5T560-240H400q-17 0-28.5 11.5T360-200q0 17 11.5 28.5T400-160Z"/></svg> &nbsp;&nbsp;Iphone 17</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M280-40q-33 0-56.5-23.5T200-120v-720q0-33 23.5-56.5T280-920h400q33 0 56.5 23.5T760-840v124q18 7 29 22t11 34v80q0 19-11 34t-29 22v404q0 33-23.5 56.5T680-40H280Zm0-80h400v-720H280v720Zm0 0v-720 720Zm120-40h160q17 0 28.5-11.5T600-200q0-17-11.5-28.5T560-240H400q-17 0-28.5 11.5T360-200q0 17 11.5 28.5T400-160Z"/></svg> &nbsp;&nbsp;Iphone Air</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M280-40q-33 0-56.5-23.5T200-120v-720q0-33 23.5-56.5T280-920h400q33 0 56.5 23.5T760-840v124q18 7 29 22t11 34v80q0 19-11 34t-29 22v404q0 33-23.5 56.5T680-40H280Zm0-80h400v-720H280v720Zm0 0v-720 720Zm120-40h160q17 0 28.5-11.5T600-200q0-17-11.5-28.5T560-240H400q-17 0-28.5 11.5T360-200q0 17 11.5 28.5T400-160Z"/></svg> &nbsp;&nbsp;Iphone 16 Pro</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M280-40q-33 0-56.5-23.5T200-120v-720q0-33 23.5-56.5T280-920h400q33 0 56.5 23.5T760-840v124q18 7 29 22t11 34v80q0 19-11 34t-29 22v404q0 33-23.5 56.5T680-40H280Zm0-80h400v-720H280v720Zm0 0v-720 720Zm120-40h160q17 0 28.5-11.5T600-200q0-17-11.5-28.5T560-240H400q-17 0-28.5 11.5T360-200q0 17 11.5 28.5T400-160Z"/></svg> &nbsp;&nbsp;Iphone 16</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M280-40q-33 0-56.5-23.5T200-120v-720q0-33 23.5-56.5T280-920h400q33 0 56.5 23.5T760-840v124q18 7 29 22t11 34v80q0 19-11 34t-29 22v404q0 33-23.5 56.5T680-40H280Zm0-80h400v-720H280v720Zm0 0v-720 720Zm120-40h160q17 0 28.5-11.5T600-200q0-17-11.5-28.5T560-240H400q-17 0-28.5 11.5T360-200q0 17 11.5 28.5T400-160Z"/></svg> &nbsp;&nbsp;Iphone 16e</a></li>
+                   <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M280-40q-33 0-56.5-23.5T200-120v-720q0-33 23.5-56.5T280-920h400q33 0 56.5 23.5T760-840v124q18 7 29 22t11 34v80q0 19-11 34t-29 22v404q0 33-23.5 56.5T680-40H280Zm0-80h400v-720H280v720Zm0 0v-720 720Zm120-40h160q17 0 28.5-11.5T600-200q0-17-11.5-28.5T560-240H400q-17 0-28.5 11.5T360-200q0 17 11.5 28.5T400-160Z"/></svg> &nbsp;&nbsp;Iphone 15</a></li>
+                   <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M280-40q-33 0-56.5-23.5T200-120v-720q0-33 23.5-56.5T280-920h400q33 0 56.5 23.5T760-840v124q18 7 29 22t11 34v80q0 19-11 34t-29 22v404q0 33-23.5 56.5T680-40H280Zm0-80h400v-720H280v720Zm0 0v-720 720Zm120-40h160q17 0 28.5-11.5T600-200q0-17-11.5-28.5T560-240H400q-17 0-28.5 11.5T360-200q0 17 11.5 28.5T400-160Z"/></svg> &nbsp;&nbsp;Iphone 14</a></li>
+                   <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M280-40q-33 0-56.5-23.5T200-120v-720q0-33 23.5-56.5T280-920h400q33 0 56.5 23.5T760-840v124q18 7 29 22t11 34v80q0 19-11 34t-29 22v404q0 33-23.5 56.5T680-40H280Zm0-80h400v-720H280v720Zm0 0v-720 720Zm120-40h160q17 0 28.5-11.5T600-200q0-17-11.5-28.5T560-240H400q-17 0-28.5 11.5T360-200q0 17 11.5 28.5T400-160Z"/></svg> &nbsp;&nbsp;Iphone 13</a></li>
+
+                    
+
+                  </ul>
+      
+              </a></li>
+            
+               </div>          
+                    <!-- watch-list -->
+                <div class="manu-list">
+                <ul>
+            <li><a href="#"  onclick="AccessoriesSubmenu()">Accessories <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+              </div>
+              <!-- sub menu iphone-->
+                 <div class="sub-menu-Accessories " id="sub-menu-Accessories">
+                  <ul>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="16px" fill="#e3e3e3"><path d="M280-80v-40q-33 0-56.5-23.5T200-200v-440q0-33 23.5-56.5T280-720h80v-120q0-17 11.5-28.5T400-880h160q17 0 28.5 11.5T600-840v120h80q33 0 56.5 23.5T760-640v440q0 33-23.5 56.5T680-120v40h-80v-40H360v40h-80Zm160-640h80v-80h-80v80Zm40 240q53 0 103.5-13.5T680-534v-106H280v106q46 27 96.5 40.5T480-480Zm-40 120v-42q-42-5-82-15t-78-27v244h400v-244q-38 17-78 27t-82 15v42h-80Zm40 0Zm0-120Zm0 36Z"/></svg> &nbsp;&nbsp;Apple Accessories</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e3e3e3"><path d="M120-120v-72h720v72H120Zm120-144q-29.7 0-50.85-21.15Q168-306.3 168-336v-288q0-29.7 21.15-50.85Q210.3-696 240-696h120q0-50 35-85t85-35q50 0 85 35t35 85h120q29.7 0 50.85 21.15Q792-653.7 792-624v288q0 29.7-21.15 50.85Q749.7-264 720-264H240Zm432-72h48v-288h-48v288ZM408-696h144q0-30-21-51t-51-21q-30 0-51 21t-21 51ZM288-336v-288h-48v288h48Zm48-288v288h288v-288H336Zm-48 288h48-48Zm384 0h-48 48Zm-384 0h-48 48Zm48 0h288-288Zm336 0h48-48Z"/></svg> &nbsp;&nbsp;Bags & Sleeves</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e3e3e3"><path d="M132-48v-198q-37-13-60.5-43.8Q48-320.61 48-360v-360h84v-156q0-15.3 10.29-25.65Q152.58-912 167.79-912t25.71 10.35Q204-891.3 204-876v156h84v360q0 39.39-23.5 70.2Q241-259 204-246v198h-72Zm312 0v-198q-37-13-60.5-43.8Q360-320.61 360-360v-360h84v-156q0-15.3 10.29-25.65Q464.58-912 479.79-912t25.71 10.35Q516-891.3 516-876v156h84v360q0 39.39-23.5 70.2Q553-259 516-246v198h-72Zm312 0v-198q-37-13-60.5-43.8Q672-320.61 672-360v-360h84v-156q0-15.3 10.29-25.65Q776.58-912 791.79-912t25.71 10.35Q828-891.3 828-876v156h84v360q0 39.39-23.5 70.2Q865-259 828-246v198h-72ZM120-648v168h96v-168h-96Zm312 0v168h96v-168h-96Zm312 0v168h96v-168h-96ZM168-309q20.4 0 34.2-15 13.8-15 13.8-36v-48h-96v48q0 21 13.8 36t34.2 15Zm312.98 0q19.98 0 33.5-15T528-360v-48h-96v48q0 21 14.5 36t34.48 15Zm310.04 0q19.98 0 34.48-15 14.5-15 14.5-36v-48h-96v48q0 21 13.52 36t33.5 15ZM164-442Zm317 0Zm316 0Z"/></svg> &nbsp;&nbsp;Cables & Adapters</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e3e3e3"><path d="M120-48q-29.7 0-50.85-21.15Q48-90.3 48-120v-456h72v456h648v72H120Zm144-144q-29.7 0-50.85-21.15Q192-234.3 192-264v-456h192v-72q0-29.7 21.15-50.85Q426.3-864 456-864h192q29.7 0 50.85 21.15Q720-821.7 720-792v72h192v456q0 29.7-21.15 50.85Q869.7-192 840-192H264Zm0-72h576v-384H264v384Zm192-456h192v-72H456v72ZM264-264v-384 384Z"/></svg> &nbsp;&nbsp;Cases & Protection</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e3e3e3"><path d="M192-264q-40 0-68-28t-28-68v-240q0-40 28-68t68-28h528q40 0 68 28t28 68v240q0 40-28 68t-68 28H192Zm288-72h240q10.2 0 17.1-6.9 6.9-6.9 6.9-17.1v-240q0-10.2-6.9-17.1-6.9-6.9-17.1-6.9H480v288Zm384-48v-192h12q17 0 26.5 9.5T912-540v120q0 17-9.5 26.5T876-384h-12Z"/></svg> &nbsp;&nbsp;Power Banks</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e3e3e3"><path d="M384-144H216q-29 0-50.5-21.5T144-216v-264q0-70 26.7-131.13 26.7-61.14 72.14-106.4 45.43-45.27 106.8-71.87Q411-816 480.5-816q69.5 0 130.63 26.6 61.14 26.6 106.4 71.87 45.27 45.26 71.87 106.4Q816-550 816-480v264q0 29-21.15 50.5T744-144H576v-288h168v-48q0-110.31-76.78-187.16-76.78-76.84-187-76.84T293-667.16Q216-590.31 216-480v48h168v288Zm-72-216h-96v144h96v-144Zm336 0v144h96v-144h-96Zm-336 0h-96 96Zm336 0h96-96Z"/></svg> &nbsp;&nbsp;Speakers & Headphones</a></li>
+
+
+                  </ul>
+      
+              </a></li>
+            
+               </div>
+
+
+        <!-- watch-list -->
+                <div class="manu-list">
+                <ul>
+            <li><a href="#"  onclick="ServicesSubmenu()">Services <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+              </div>
+              <!-- sub menu iphone-->
+                 <div class="sub-menu-Services " id="sub-menu-Services">
+                  <ul>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e3e3e3"><path d="M552-432q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm-288 96q-29.7 0-50.85-21.17Q192-378.33 192-408.06v-288.22Q192-726 213.15-747T264-768h576q29.7 0 50.85 21.17Q912-725.67 912-695.94v288.22Q912-378 890.85-357T840-336H264Zm72-72h432q0-30 21.15-51.12 21.15-21.11 50.85-21.11V-624q-29.7 0-50.85-21.15Q768-666.3 768-696H336q0 30-21.15 51.12-21.15 21.11-50.85 21.11V-480q29.7 0 50.85 21.15Q336-437.7 336-408Zm456 216H120q-29.7 0-50.85-21.15Q48-234.3 48-264v-408h72v408h672v72ZM264-408v-288 288Z"/></svg> &nbsp;&nbsp;Easy Payment</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e3e3e3"><path d="m376-272 51-51-49-49h150v-72H378l49-49-51-51-136 136 136 136Zm208-144 136-136-136-136-51 51 49 49H432v72h150l-49 49 51 51ZM480-96q-79 0-149-30t-122.5-82.5Q156-261 126-331T96-480q0-80 30-149.5t82.5-122Q261-804 331-834t149-30q80 0 149.5 30t122 82.5Q804-699 834-629.5T864-480q0 79-30 149t-82.5 122.5Q699-156 629.5-126T480-96Zm0-72q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z"/></svg> &nbsp;&nbsp;Trade-In</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e3e3e3"><path d="m240-144 240-240 240 240H240ZM96-312.04v-432.24Q96-774 117.5-795t50.5-21h624q29.7 0 50.85 21.16Q864-773.68 864-743.96v432.24Q864-282 842.85-261T792-240H672v-72h120v-432H168v432h120v72H168q-29.7 0-50.85-21.16Q96-282.32 96-312.04ZM480-492Z"/></svg> &nbsp;&nbsp;Device Protection Plen</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e3e3e3"><path d="M480-408ZM144-192v-360.28Q144-582 165.15-603T216-624h96v-72.21Q312-726 333.15-747T384-768h192q29.7 0 50.85 21.15Q648-725.7 648-696v72h96q29.7 0 50.85 21.15Q816-581.7 816-552v360H144Zm216-180v36h-72v-36h-72v108h528v-108h-72v36h-72v-36H360ZM216-552v108h72v-36h72v36h240v-36h72v36h72v-108H216Zm168-72h192v-72H384v72Z"/></svg> &nbsp;&nbsp;Service Center</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e3e3e3"><path d="M192-144v-120h90l-69-275q-32-15-50.5-44.5T144-648q0-51 35-85.5t86-34.5q39 0 70.5 23t42.5 61h78v-48q0-15 10.5-25.5T492-768q15 0 25.5 10.5T528-732v7l96-82q8-7 18-8t20 3l133 60q14 6 19.5 19.5T813-705q-6 13-20 18t-28 0l-112-50-105 89 105 90 112-50q14-6 27.5-1t20.5 19q6 13 .5 26T795-543l-133 60q-9 5-19.5 3.5T624-488l-96-82v6q0 15-10.5 25.5T492-528q-15 0-25.5-10.5T456-564v-48h-78q-4 14-11.5 25.5T349-564l172 300h151v120H192Zm72-450q23 0 38.5-15.5T318-648q0-22-15.5-37.5T264-701q-23 0-38.5 15.5T210-648q0 23 15.5 38.5T264-594Zm92 330h82L292-519h-.5.5l64 255Zm82 0Z"/></svg> &nbsp;&nbsp;Workshops</a></li>
+                    <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e3e3e3"><path d="M216-144q-29.7 0-50.85-21.15Q144-186.3 144-216v-528q0-29.7 21.15-50.85Q186.3-816 216-816h171q8-32 34.03-52t59-20Q513-888 539-868t34 52h171q29.7 0 50.85 21.15Q816-773.7 816-744v528q0 29.7-21.15 50.85Q773.7-144 744-144H216Zm264-624q10.4 0 17.2-6.8 6.8-6.8 6.8-17.2 0-10.4-6.8-17.2-6.8-6.8-17.2-6.8-10.4 0-17.2 6.8-6.8 6.8-6.8 17.2 0 10.4 6.8 17.2 6.8 6.8 17.2 6.8ZM216-269q56-46 124-68.5T480-360q72 0 140 22t124 69v-475H216v475Zm264.24-139Q540-408 582-450.24q42-42.24 42-102T581.76-654q-42.24-42-102-42T378-653.76q-42 42.24-42 102T378.24-450q42.24 42 102 42ZM265-216h430q-46-35-101-53.5T480-288q-59 0-113.5 18.5T265-216Zm215-264q-30 0-51-21t-21-51q0-30 21-51t51-21q30 0 51 21t21 51q0 30-21 51t-51 21Zm0-72Z"/></svg> &nbsp;&nbsp;Portfolio</a></li>
+
+
+                  </ul>
+      
+              </a></li>
+            
+               </div>          
+                          <!-- menu store -->
+                <div class="manu-list">
+                <ul>
+            <li><a href="#">Store <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
+              </div>    
+                        <!-- menu offer -->
+               
+              
+              <!-- manu-icon -->
+        <div class="manu-icon" onclick="searchBox()">
+         <svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#e3e3e3"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" /></svg>
+         
+        </div>
+
+
+        
+        </div>  
+         <div class="reserch"  data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
+
+            <input type="text" placeholder="Search....." id="searchBox" onkeyup="searchProduct()" >
+            <div class="manu-icon" >
+                         <svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#e3e3e3"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+
+        </div>
+          </div>
+   
+
+      
+
+
+  </div>
+  </div>
+
+    <!-- socimedia     -->
+     <div class="container">
+     <div class="Socimedia-men">
+      <div class="socimedia-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M440-520 120-720v400h400v80H120q-33 0-56.5-23.5T40-320v-480q0-33 23.5-56.5T120-880h640q33 0 56.5 23.5T840-800v200h-80v-120L440-520Zm0-80 320-200H120l320 200ZM760-80q-66 0-113-47t-47-113v-180q0-42 29-71t71-29q42 0 71 29t29 71v180h-80v-180q0-8-6-14t-14-6q-8 0-14 6t-6 14v180q0 33 23.5 56.5T760-160q33 0 56.5-23.5T840-240v-160h80v160q0 66-47 113T760-80ZM120-720v-80 480-400Z"/></svg>
+        <!-- email -->
+      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">hornseyhak12345@gmail.com</a>
+      <div class="media">
+        <p>Follow us on</p>
+        <img src="remove bg/facebook-removebg-preview.png" alt="">
+        <img src="remove bg/instagram-removebg-preview.png" alt="">
+        <img src="remove bg/telegram-removebg-preview.png" alt="">
+        <img src="remove bg/call-removebg-preview.png" alt="">
+
+
+      </div>
+      
+      </div>
+      
+       
+
+
+
+
+
+    </div>
+    </div>
+
+    
+
+      <!-- slide show -->
+      <div class="container">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8" aria-label="Slide 9"></button>
+
+
+
+  </div>
+  <div class="carousel-inner">
+
+      <!-- slide item 1 -->
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="img slide/Web-BannerAvailable-Now-AirPods-Pro-3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+    <!-- slide item 2 -->
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="img slide/apple-watch-hero-10-cambodia.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+      <!-- slide item 3 -->
+    <div class="carousel-item">
+      <img src="img slide/Check-Back-Watch-SE-3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+
+     <!-- slide item 4 -->
+    <div class="carousel-item">
+      <img src="img slide/Web-banner-iPhone-17-Insure-06-scaled.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+
+       <!-- slide item 5 -->
+    <div class="carousel-item">
+      <img src="img slide/Web-iOne-UCB-Acc-purchase-Aug-2025-02-scaled.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+
+       <!-- slide item 6 -->
+    <div class="carousel-item">
+      <img src="img slide/apple-watch-etral-2-hero-cambodia.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+
+      <!-- slide item 7 -->
+    <div class="carousel-item">
+      <img src="img slide/Artboard-8100.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+
+     <!-- slide item 8 -->
+    <div class="carousel-item">
+      <img src="img slide/ione-ucb-cash-back-hero-cambodia.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+
+      <!-- slide item 9 -->
+    <div class="carousel-item">
+      <img src="img slide/ipad-pro-hero-cambodia.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       
+      </div>
+    </div>
+
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+  <!-- title -->
+  <div class="container">
+    <div class="title-product">
+      <h2>Explore the latest Apple products.</h2>
+    </div>
+  </div>
+        <!-- card product -->
+  <div class="container">
+     <!-- card product 1-->
+    <div class="card" style="width: 18rem;">
+      <a href="page2 mac\mac.html">  <img src="img product/macbook-air-cambodia.png" class="card-img-top" alt="..."></a>
+  <div class="card-body">
+    <h5 class="card-title">MacBook Air M4 15-inch</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+  <!-- card product 2-->
+    <div class="card" style="width: 18rem;">
+  <a href="../page3/iPad.html"><img src="img product/ipad-air-cambodia-1.png" class="card-img-top" alt="..."></a>
+  <div class="card-body">
+    <h5 class="card-title">iPad Air 13-inch M3</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+  <!-- card product 3-->
+    <div class="card" style="width: 18rem;">
+      <a href="page4 iphone/phone.html"><img src="img product/iphone-17-5-cambodia-1.png" class="card-img-top" alt="..."></a>
+  <div class="card-body">
+    <h5 class="card-title">iPhone 17</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+  <!-- card product 4-->
+    <div class="card" style="width: 18rem;">
+  <a href="../page4 iphone/watch.html"><img src="img product/apple-watch-series-11-1-cambodia.png" class="card-img-top" alt="..."></a>
+  <div class="card-body">
+    <h5 class="card-title">Apple Watch Series 11</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+
+  </div>
+
+  <!-- title-aceessories-->
+  <div class="container">
+    <div class="title-aceessories">
+      <h2>Find the perfect accessories for you.</h2>
+    </div>
+
+    <div class="accessories">
+    <!-- card product aceessories 1-->
+    <div class="card" style="width: 12rem;">
+      <a href="../accessories page/mouse iphone.html"><img src="accessori/apple-accessories-cambodia-1.png" class="card-img-top" alt="..."></a>
+  <div class="card-body">
+    <h5 class="card-title">Apple </h5>
+    <p class="card-text">Some quick example text to build on the card title a</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+  <!-- card product aceessories 2-->
+    <div class="card" style="width: 12rem;">
+  <img src="accessori/bag-sleev-accessories-cambodia.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Bags & Sleeves</h5>
+    <p class="card-text">Some quick example text to build on the card title a</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+  <!-- card product aceessories 3-->
+    <div class="card" style="width: 12rem;">
+  <img src="accessori/cable-cambodia.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cables </h5>
+    <p class="card-text">Some quick example text to build on the card title a</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+  <!-- card product aceessories 4-->
+    <div class="card" style="width: 12rem;">
+  <img src="accessori/case-protection.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Cases </h5>
+    <p class="card-text">Some quick example text to build on the card title a</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+  <!-- card product aceessories 5-->
+    <div class="card" style="width: 12rem;" data-name="Power Banks">
+  <img src="accessori/power-bank-accessories-cambodia.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Power Banks</h5>
+    <p class="card-text">Some quick example text to build on the card title a</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+  <!-- card product aceessories 6-->
+    <div class="card" style="width: 12rem;">
+  <img src="accessori/speaker-headphone-accessories-cambodia.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"> Headphones</h5>
+    <p class="card-text">Some quick example text to build on the card title a</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+
+  </div>
+
+  </div>
+
+   <!-- title sale phone-->
+  <div class="container">
+    <div class="title-product-phone">
+      <h2>Our featured Apple accessories.</h2>
+    </div>
+  </div>
+        <!-- card product phone -->
+
+        <!-- card product -->
+  <div class="container">
+     <!-- card product 1-->
+    <div class="card" style="width: 18rem;">
+  <img src="phone/apple-iphone-17-pro-clear-case-with-magsafe-5-cambodia.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Apple iPhone 17 Pro Max </h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+  <!-- card product 2-->
+    <div class="card" style="width: 18rem;">
+  <img src="phone/apple-140w-usb-c-power-adapter-3-cambodia.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Apple 140W USB-C Power </h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+  <!-- card product 3-->
+    <div class="card" style="width: 18rem;">
+  <img src="phone/airpods-pro-3-5-cambodia.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">AirPods Pro 3</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+  <!-- card product 4-->
+    <div class="card" style="width: 18rem;">
+  <img src="phone/apple-iphone-17-pro-clear-case-with-magsafe-5-cambodia.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Apple iPhone 17 Pro Max</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+
+  </div>
+
+  <!-- discovery or service -->
+
+  <div class="container">
+    <div class="discovery-service">
+      <div class="contant">
+        <h3>Discover our services</h3>
+        <h1>Enjoy benefits <br>with our many <br>iOne services</h1>
+        <p>Our installment and Trade-In packages, device <br>insurance plans & free training sessions ensure <br>the best experiences for our customers!</p>
+
+        <button>Learn More <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg></button>
+
+
+
+      </div>
+      
+    </div>
+
+    <!-- service centerr -->
+     <div class="container">
+      <div class="card-service">
+        <div class="card-service-mid-left">
+          <!-- service center mid-left-infor-->
+          <div class="card-service-mid-left-infor">
+              <h1>Easy Payment
+                   <br> installment to 
+                  <br>own your Apple 
+                  <br>devices right away!
+        </h1>
+
+               <button align="center">Learn More <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/></svg></button>
+          </div>
+        
+        </div>
+        <!-- service center mid-right-infor-->
+        <div class="card-service-mid-right">
+          <img src="img photo/ucb-card-cambodia.png" alt="">
+
+        </div>
+
+        
+
+
+      </div>
+
+     </div>
+
+     <!-- service centerr2 -->
+     <div class="container">
+      <div class="card-services">
+        <div class="card-service-mid-lefts">
+          <!-- service center mid-left-infor-->
+          <div class="card-service-mid-left-infors">
+              <h1>Benefit from our worry-free device insurance plans.
+        </h1>
+
+               <button align="center">Check Plans <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/></svg></button>
+          </div>
+        
+        </div>
+        <!-- service center mid-right-infor-->
+        <div class="card-service-mid-rights">
+          <img src="img photo/device-protection-plan.png" alt="">
+
+        </div>
+
+        
+
+
+      </div>
+
+     </div>
+
+      <!-- vistion about company -->
+        <div class="container">
+          <div class="infor-content-store">
+            <!-- <p>Apple Authorized Reseller in Cambodia</p> -->
+            <h2>Visit our Phnom Penh Stores</h2>
+            <p>
+              iOne operates two boutique Apple Reseller stores in Phnom Penh’s  <br>  
+                               premier AEON mega malls.
+            </p>
+
+          </div>
+
+          <!-- card store image1  -->
+
+          <div class="card-img-store" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"
+     data-aos-duration="1000">
+
+              <div class="card-img-store-item-one">
+                <div class="content-store">
+                      <h1>iOne Sen Sok <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#808080"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></h1>
+                </div>
+               
+
+              </div>
+
+             
+
+
+
+          </div>
+
+          <!-- card store image2  -->
+
+          <div class="card-img-store" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"
+     data-aos-duration="2000">
+
+              <div class="card-img-store-item-two">
+                  <div class="content-store">
+                      <h1>iOne Sothearos<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#808080"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></h1>
+                </div>
+               
+
+              </div>
+
+             
+
+
+
+          </div>
+
+          <!-- card store image3  -->
+
+          <div class="card-img-store" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"
+     data-aos-duration="3000">
+
+              <div class="card-img-store-item-three">
+                  <div class="content-store">
+                      <h1>iOne Service Center <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#808080"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/></svg></h1>
+                </div>
+               
+
+              </div>
+
+             
+
+
+
+          </div>
+
+      
+
+        </div>
+
+          <!-- iOne Installment Process -->
+        <div class="container">
+
+           <div class="infor-content-store">
+           
+            <h2>iOne Installment Process</h2>
+            <p>
+              iOne offers a range of installment services for our customers in <br>
+           cooperation with our trusted financial partners.                                  
+            </p>
+
+          </div>
+        </div>
+        <!-- icon for installment process -->
+        <div class="container">
+          <div class="icon-installment-process">
+            <div class="icon-installment-process-item">
+              <!-- img icon-->
+             <div class="icon-installment-process-item-submit">
+
+              <img src="icon for approve/image.png" alt="">
+
+
+             </div>
+
+              <div class="icon-installment-process-item-submit-content">
+                <h3>Submit Application</h3>
+                <p>Send us your request and specify the device you want.</p>
+
+
+              </div>
+            </div>
+
+            <!-- icon document -->
+             <div class="icon-installment-process-item">
+              <!-- img icon-->
+             <div class="icon-installment-process-item-submit">
+
+              <img src="icon for approve/document.png" alt="">
+
+
+             </div>
+
+              <div class="icon-installment-process-item-submit-content">
+                <h3>Provide Documents</h3>
+                <p>Submit your ID and proof of income ($300+ per month)</p>
+
+
+              </div>
+            </div>
+
+            <!-- icon bank -->
+             <div class="icon-installment-process-item">
+              <!-- img icon-->
+             <div class="icon-installment-process-item-submit">
+
+              <img src="icon for approve/bank virification.png" alt="">
+
+
+             </div>
+
+              <div class="icon-installment-process-item-submit-content">
+                <h3>Bank Verification</h3>
+                <p>Our partner bank reviews and processes your documents.</p>
+
+
+              </div>
+            </div>
+
+              <!-- icon approved -->
+
+              <div class="icon-installment-process-item">
+              <!-- img icon-->
+             <div class="icon-installment-process-item-submit">
+
+              <img src="icon for approve/get approved.png" alt="">
+
+
+             </div>
+
+              <div class="icon-installment-process-item-submit-content">
+                <h3>Get Approved</h3>
+                <p>Once approved, take home your dream device!</p>
+
+
+              </div>
+            </div>
+
+
+
+          
+          </div>
+              <!-- button for check -->
+          
+            <div class="button-check-installment">
+
+           
+            <button>Check Installment Interest <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></button>
+
+      </div>
+
+        </div>
+
+        <!-- footer  -->
+         
+       <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4"
+             style="background-color: #6351ce"
+             >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Company name</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">MDBootstrap</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">MDWordPress</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">BrandFlow</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Bootstrap Angular</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Become an Affiliate</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i>Phnom penh</p>
+            <p><i class="fas fa-envelope mr-3"></i> hornseyhak12345@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i>088 652 8431</p>
+            <!-- <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p> -->
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2025 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >hornseyhak.com</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</div>
+<!-- End of .container -->
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+</body>
+<script src="dynamic.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<!-- link AOS -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+</script>
+
+
+
+
+
+
+</html>
