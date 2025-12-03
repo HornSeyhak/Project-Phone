@@ -1,0 +1,119 @@
+
+ .btn-see-more button{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 5px 8px;
+    border: 2px solid #bfb9b9a5;
+    margin-left: 47%;
+}
+
+ .btn-see-more button:hover{
+    background-color: #bebebe50;
+    color: white;
+    cursor: pointer;
+}
+
+     .btn-see-more button a{
+        text-decoration: none;
+        color: rgb(142, 141, 141);
+        font-weight: 600;
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    }
+
+    /* slide */
+
+
+    .slider{
+    width: 100%;
+    overflow: hidden;
+   
+    margin-top: 20px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .slide-track{
+    display: flex;
+  
+    
+    animation: scroll 40s linear infinite;
+
+    }
+
+    .slide-track{
+    display: flex;
+   
+    animation: scroll 40s linear infinite;
+        
+    }
+
+    .card-slide{
+    width: 250px;
+    overflow: hidden;
+    margin: 0 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(77, 75, 75);
+    border-radius: 5px;
+   transition: all 0.3s ease;
+   cursor: pointer;
+    }
+
+    .card-slide:hover{
+        transform: translatey(-5px);
+    }
+
+
+
+    .card-slide .card-for-image{
+    width: 100%;
+   overflow: hidden;
+;
+    /* background-color: rgb(110, 126, 198); */
+    border-radius: 10px;
+    }   
+
+    .card-content{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 10px;
+        /* background-color: violet; */
+    }
+
+     .card-slide .card-for-image img{
+        width: 100%;
+       overflow: hidden;
+        border-radius: 10px 10px 0px;
+     }
+
+     .card-content h2{
+        font-family: sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        color: rgba(57, 57, 57, 0.864);
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            
+     }
+
+     .card-content a{
+        text-decoration: none;
+     }
+
+       .card-content a p {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color:rgba(54, 54, 246, 0.797);
+       margin-left: 22px;
+        
+       
+            
+     }
